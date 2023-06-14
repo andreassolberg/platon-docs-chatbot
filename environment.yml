@@ -1,0 +1,14 @@
+name: docs-chatbot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - langchain
+    - openai
+    - unstructured
+    - pdf2image
+    - pinecone-client
+    - tiktoken
